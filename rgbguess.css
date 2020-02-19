@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bg.jpg);
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.myheader {
+    color: white;
+    text-align: center;
+    min-height: 300px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.guess {
+    margin-bottom: 20px;
+}
+
+.correctColor {
+    text-transform: uppercase;
+}
+
+.myoption {
+    width: 100%;
+    min-height: 70px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.btn-default {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btnClicked {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.message {
+    font-size: 2rem;
+    margin: auto 0;
+}
+
+.correctColor {
+    font-size: 3.5rem;
+}
+
+.square {
+    padding-top: 80%; 
+    width: 80%;
+    background-color: purple;
+    margin: 5% auto;
+    border-radius: 13%;
+    transition: background 0.3s;
+    transition: opacity 0.3s;
+}
